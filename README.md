@@ -1,6 +1,6 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ryde App is like Ola and Uber that allow user to book a ride by selecting a location
 
 ## Get started
 
