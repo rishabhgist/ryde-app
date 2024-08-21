@@ -1,0 +1,36 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_Y29ycmVjdC1yZXB0aWxlLTUzLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "DB_URL": "postgresql://uber_owner:BIKijqXaC49e@ep-round-smoke-a1zvz3hg.ap-southeast-1.aws.neon.tech/uber?sslmode=require",
+        "EXPO_PUBLIC_SERVER_URL": "https://uber.com/",
+        "EXPO_PUBLIC_GEOAPIFY_KEY": "4912ac8438f34e4a94c5b28a97c9c791",
+        "EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyB6VgDIMmSqGG2zuy539QWwxDxev_4DcrY",
+        "EXPO_PUBLIC_STRIPE_KEY": "pk_test_51PpVHSIq7jjSm37VM2ALs4Fz9EP7TYxpjo8FltOnWSPjelGO7X2PT0lwLd4AnBnhUJgvXaIz4laSJwEd3VY0XMk400r0gkmAEa",
+        "STRIPE_SECRET_KEY": "sk_test_51PpVHSIq7jjSm37VXN4NG08wyJuG4EivQbkHcecx8PAEC4r4wxmI1lI0rMquAtKLzz3EPHWtC5cZbBBOGS9fAfGa00dcGQfLTL"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_Y29ycmVjdC1yZXB0aWxlLTUzLmNsZXJrLmFjY291bnRzLmRldiQ",
+        "DB_URL": "postgresql://uber_owner:BIKijqXaC49e@ep-round-smoke-a1zvz3hg.ap-southeast-1.aws.neon.tech/uber?sslmode=require",
+        "EXPO_PUBLIC_SERVER_URL": "https://uber.com/",
+        "EXPO_PUBLIC_GEOAPIFY_KEY": "4912ac8438f34e4a94c5b28a97c9c791",
+        "EXPO_PUBLIC_GOOGLE_API_KEY": "AIzaSyB6VgDIMmSqGG2zuy539QWwxDxev_4DcrY",
+        "EXPO_PUBLIC_STRIPE_KEY": "pk_test_51PpVHSIq7jjSm37VM2ALs4Fz9EP7TYxpjo8FltOnWSPjelGO7X2PT0lwLd4AnBnhUJgvXaIz4laSJwEd3VY0XMk400r0gkmAEa",
+        "STRIPE_SECRET_KEY": "sk_test_51PpVHSIq7jjSm37VXN4NG08wyJuG4EivQbkHcecx8PAEC4r4wxmI1lI0rMquAtKLzz3EPHWtC5cZbBBOGS9fAfGa00dcGQfLTL"
+      }
+    }
+  }
+}
